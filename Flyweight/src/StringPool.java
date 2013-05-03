@@ -1,7 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class StringPool {
 	private Map<String,StringObject> allStrings = new HashMap<String,StringObject>();
 	
@@ -26,7 +25,6 @@ public class StringPool {
 			get(token.toLowerCase());
 		}		
 	}
-	
 	
 	public void clear(){
 		allStrings.clear();
